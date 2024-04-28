@@ -27,26 +27,51 @@
   <body>
     <div class="container">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city.." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Valencia</h1>
-          <p>
-            Wednesday, 22:12, clear
-            <br />
-            Humidity: 39%, Wind: 3.13km/h
+        <div class="weather-data">
+            <div class="weather-temperature-container">
+                <div class="weather-temperature">12</div> 
+                <div class="weather-unit">°C</div>
+            </div>
+            <br>
+            <div class="weather-icon">☀</div>
+            
+            <div class="weather-city">
+                <h1 >London</h1>
+                <br>
+                <p>
+                    <div class="weather-day-time">
+                        Wednesday, 22:12 
+                    </div>
+                    <br>
+                                        <br>
+
+                        <div class="weather-types">cloudy</div>
+            </div>
+
+            </p>
+            <p>
+  <div class="weather-details">
+              Humidity: 56%
+              <br>Wind: 5.7km/h
+       </div>
           </p>
         </div>
-        <div>☀ 21°C</div>
       </main>
       <footer>
         <hr />
         This project was coded by
-        <a href="https://github.com/CodingKatsa" target="_blank">Katrin Saur</a>
+        <a href="https://github.com/CodingKatsa" target="_blank">Katrin</a>
         and is on
         <a
           href="https://github.com/CodingKatsa/Kats-weather-forecast"
