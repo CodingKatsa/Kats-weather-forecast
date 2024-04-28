@@ -73,7 +73,7 @@ main {
   /* margin: 35px; */
   /* margin-top: 50px;
   margin-bottom: 80px; */
-  border: 1px solid aliceblue;
+  /* border: 1px solid aliceblue; */
   border-radius: 15px;
 }
 .description {
@@ -100,7 +100,7 @@ main {
   display: flex;
   /* margin-left: 5px;
   margin-right: 450px; */
-  border: 1px solid aliceblue;
+  /* border: 1px solid aliceblue; */
 }
 
 .weather-icon {
