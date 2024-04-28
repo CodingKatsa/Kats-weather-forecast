@@ -27,12 +27,13 @@
   <body>
     <div class="container">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -46,7 +47,7 @@
             <br>
             <div class="weather-icon">☀</div>
             
-            <div class="weather-city">
+            <div class="weather-city" id="city">
                 <h1 >London</h1>
                 <br>
                 <p>
@@ -55,7 +56,6 @@
                     </div>
                     <br>
                                         <br>
-
                         <div class="weather-types">cloudy</div>
             </div>
 
@@ -82,5 +82,6 @@
         <a href="https://katsweather.netlify.app/" target="_blank">Netlify</a>.
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
