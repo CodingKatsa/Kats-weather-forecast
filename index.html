@@ -39,34 +39,36 @@
           <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
+      
       <main>
-        <div class="weather-data">
-            <div class="weather-temperature-container">
-                <div class="weather-temperature" id="temperature">12</div> 
-                <div class="weather-unit">°C</div>
-            </div>
-            <br>
-            <div class="weather-icon">☀</div>
-            
-            <div class="weather-city" id="city">
-                <h1 >London</h1>
-                <br>
-                <p>
-                    <div class="weather-day-time">
-                        Wednesday, 22:12 
-                    </div>
-                    <br>
-                                        <br>
-                        <div class="weather-types">cloudy</div>
+<div class="weather-app-data">
+<div>
+  <h1 class="weather-city" class="city"></h1>
+  <p class="weather-details">
+    <span class="time" id="time"></span>
+    <br>
+    <span class="description" id="description"></span>
+    <br>
+    <div class ="weather-details">
+                    Humidity: <strong id="humidity"></strong>
+          <br>Wind: <strong id="wind-speed"></strong>
+    </div>
+</p>
+</div>
+
+       <div class="weather-details-column1"> 
+            <div id="icon"> 
+                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png" > 
             </div>
 
+            <div class="weather-temperature" id="temperature"></div> 
+            <div class="weather-unit">°C</div>
+            
+            <!-- <span class="weather-temperature-container">
+          </span> -->
+          
             </p>
-            <p>
-  <div class="weather-details">
-              Humidity: 56%
-              <br>Wind: 5.7km/h
-       </div>
-          </p>
+        </div>
         </div>
       </main>
       <footer>
@@ -83,6 +85,6 @@
         <a href="https://katsweather.netlify.app/" target="_blank">Netlify</a>.
       </footer>
     </div>
-    <script src="src/index.js"></script>
+    <script src="src/index2.js"></script>
   </body>
 </html>
