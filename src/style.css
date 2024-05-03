@@ -33,11 +33,6 @@ body {
   border-radius: 5px;
 }
 
-/* .search-form {
-  display: flex;
-  justify-content: space-between;
-} */
-
 main {
   padding: 20px 0;
 }
@@ -45,7 +40,7 @@ main {
 .weather-app-data {
   display: flex;
   justify-content: space-around;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .weather-city {
@@ -66,8 +61,8 @@ main {
   font-size: 22px;
   line-height: 24px;
   padding: 20px 10px 20px 10px;
-  margin-left: 50px;
-  margin-right: auto;
+  margin-left: auto;
+  margin-right: 50px;
   border: 1px solid #083975;
   border-radius: 15px;
   transform: rotateX(-10deg) rotateY(38deg) scale(1.02, 1) skew(179deg, 0deg)
@@ -95,7 +90,7 @@ main {
 }
 
 .weather-details-column2 {
-  width: 200px;
+  width: 300px;
   height: 150px;
   text-align: center;
   font-size: 48px;
@@ -133,6 +128,24 @@ main {
 .weather-unit {
   margin-top: 0px;
   font-size: 48px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 20 px;
+  color: #000;
+}
+
+.weather-forecast-temperatures-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures-max {
+  font-size: 16px;
 }
 
 header {
