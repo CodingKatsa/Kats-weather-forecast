@@ -6,7 +6,7 @@ body {
 .container {
   background-color: whitesmoke;
   max-width: 600px;
-  margin: 60px auto;
+  margin: 40px auto;
   box-shadow: 10px 10px 5px 0.8px #083975;
   border-radius: 20px;
   padding: 40px;
@@ -44,25 +44,28 @@ main {
 }
 
 .weather-city {
-  margin: 0;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 600px;
   font-size: 52px;
   line-height: 48px;
   color: #083975;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  padding: 0px 10px 10px 20px;
+  padding: 0px 10px 40px 10px;
   font-weight: 600;
   text-align: center;
   text-shadow: 2px 2px 2px rgba(9, 6, 150, 0.5);
 }
 
 .weather-details {
-  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 300px;
   font-size: 22px;
-  line-height: 24px;
+  line-height: 48px;
+  text-align: center;
   padding: 20px 10px 20px 10px;
-  margin-left: auto;
-  margin-right: 50px;
   border: 1px solid #083975;
   border-radius: 15px;
   transform: rotateX(-10deg) rotateY(38deg) scale(1.02, 1) skew(179deg, 0deg)
@@ -71,18 +74,20 @@ main {
   background-color: #e7eaf6;
 }
 .description {
-  text-align: center;
   box-sizing: border-box;
   padding: 5px 10px;
   margin-top: 5px;
   border-radius: 2px;
+  line-height: 48px;
+  text-align: center;
 }
 
 .time {
   font-weight: bold;
   text-decoration: underline;
   font-size: 22px;
-  text-align: left;
+  line-height: 48px;
+  text-align: center;
   padding: 5px 10px;
   margin-bottom: 5px;
   margin-top: 5px;
@@ -96,10 +101,9 @@ main {
   font-size: 48px;
   line-height: 24px;
   padding: 30px 20px 10px 20px;
-  margin-left: 50px;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
   border: 1px solid #083975;
   box-shadow: 10px 10px 10px rgba(4, 2, 84, 0.887);
   border-radius: 15px;
@@ -133,21 +137,22 @@ main {
 .forecast {
   width: 600px;
   display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 20px;
   text-align: center;
-
-  /* border: 1px solid #083975;
-  box-shadow: 10px 10px 10px rgba(4, 2, 84, 0.887);
-  border-radius: 15px; */
 }
 
 .forecast-day {
   border: 1px solid #083975;
+  background-color: #a2a8d3;
   /* background-color: #f7eec2; */
-  background-color: #f5e180;
-  box-shadow: 5px 5px 5px rgba(4, 2, 84, 0.887);
-  border-radius: 15px;
+  /* background-color: #f5e180;
+  box-shadow: 5px 5px 5px rgba(4, 2, 84, 0.887); */
+  border-radius: 25px;
+  width: 100px;
+  transform: rotateY(16deg) scale(1.08, 0.89) skew(164deg, 197deg)
+    translate(-1px, 12px);
 }
 
 .forecast-date {
@@ -156,25 +161,24 @@ main {
   line-height: 20px;
   text-align: center;
   color: #000;
-  margin-bottom: 10px;
 }
 
 .forecast-icon {
-  font-size: 40px;
+  width: 88px;
+  height: 88px;
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 .forecast-temperatures {
   text-align: center;
   color: #a52f57;
-  margin-top: 10px;
   display: flex;
   justify-content: center;
-  opacity: 0.5;
-  font-size: 16px;
 }
 
 .forecast-temperature {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 header {
