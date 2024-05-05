@@ -44,6 +44,8 @@ main {
 
 .weather-app-data {
   display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
   justify-content: space-around;
   max-width: 400px;
 }
