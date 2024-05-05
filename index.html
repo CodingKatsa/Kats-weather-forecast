@@ -41,39 +41,45 @@
       </header>
       
       <main>
-        <h1 class="weather-city" class="city" id="city"></h1>
         <div class="weather-app-data">
-<div>
-  <p class="weather-details">
-    <span class="time" id="time"></span>
-    <br>
-    <span class="description" id="description"></span>
-    <div class ="weather-details">
-                    Humidity: <strong id="humidity"></strong>
-          <br>Wind: <strong id="wind-speed"></strong>
-    </div>
-</p>
-</div>
+          <div>
+            <p class="weather-details">
+              <span class="time" id="time"></span>
+              <br>
+              <span class="description" id="description"></span>
+              <div class ="weather-details">
+                Humidity: <strong id="humidity"></strong>
+                <br>Wind: <strong id="wind-speed"></strong>
+                                <br>Feels-like: <strong id="feelsLike"></strong>
 
-       <div class="weather-details-column2"> 
+              </div>
+
+
+              
+            </p>
+          </div>
+
+          
+          <div class="weather-details-column2"> 
+         <h1 class="weather-city" class="city" id="city"></h1>
+         <div class="weather-temperature-icon">
+          <p>
          <span class="weather-temperature" id="temperature"></span> 
-         <span class="weather-unit">°C</span><br>
-        <div  class="icon" id="icon"> 
+         <span class="weather-unit">°C</span>
+            <div  class="icon" id="icon"> 
                 <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png" > 
             </div>
             </p>
         </div>
         </div>
-
-        <div class="forecast" id="forecast">
-
-        </div>
+                          </div>
+<br/>
+        <div class="forecast" id="forecast"></div>
       </main>
       <footer>
         <hr />
         This project was coded by
-        <a href="https://github.com/CodingKatsa" target="_blank">Katrin Saur</a>
-        and is on
+        <a href="https://github.com/CodingKatsa" target="_blank">Katrin Saur</a>, is opensourced on
         <a
           href="https://github.com/CodingKatsa/Kats-weather-forecast"
           target="_blank"
