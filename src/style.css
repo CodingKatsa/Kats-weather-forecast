@@ -46,8 +46,6 @@ main {
   display: flex;
   justify-content: space-around;
   max-width: 400px;
-  display: block;
-  margin: 0 auto;
 }
 
 .weather-details {
@@ -55,7 +53,7 @@ main {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 10px;
-  width: 300px;
+  width: 400px;
   font-size: 22px;
   line-height: 48px;
   text-align: center;
@@ -87,7 +85,7 @@ main {
 }
 
 .weather-details-column2 {
-  width: 300px;
+  width: 400px;
 }
 
 .weather-city {
