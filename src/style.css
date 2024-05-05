@@ -53,7 +53,6 @@ main {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 60px;
   width: 300px;
   font-size: 22px;
   line-height: 48px;
@@ -61,8 +60,6 @@ main {
   padding: 20px 10px 20px 10px;
   border: 1px solid #083975;
   border-radius: 15px;
-  /* transform: rotateX(-10deg) rotateY(38deg) scale(1.02, 1) skew(179deg, 0deg)
-    translate(14px, 0px); */
   box-shadow: 10px 10px 10px rgba(4, 2, 84, 0.887);
   background-color: #e7eaf6;
 }
